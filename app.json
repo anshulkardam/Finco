@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "gym-app",
-    "slug": "gym-app",
+    "name": "LiftLog",
+    "slug": "LiftLog",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,13 +17,21 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.anshulkardam.gymapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": ["expo-font"],
+    "extra": {
+      "eas": {
+        "projectId": "2077f0aa-9652-47f5-93de-9b8dd6703d8a"
+      }
+    },
+    "owner": "anshulkardam"
   }
 }
